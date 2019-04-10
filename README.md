@@ -1,6 +1,7 @@
 # API_assignment
 539 API Assignment
-based on :
+based on project from Free Code Camp: 
+
 ## New York Times Best Sellers
 
 This best sellers list is built with the New York Times & Google Books APIs!

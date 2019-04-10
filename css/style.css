@@ -5,12 +5,18 @@
   width: device-width ;
   zoom: 1.0 ;
 }
+h1{
+  padding-top: 150px;
+  text-align: center;
+  font-family: 'Rozha One', serif;
+  font-size: 45px;
+}
 * {
   box-sizing: border-box;
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
 }
-.book-cover {
+.book-cover { /*This is the book's cover*/
   display: block;
   margin: 30 auto;
   width: 100px;
@@ -18,12 +24,13 @@
           transform: translateY(-30px);
 }
 
-.entry {
-  margin: 30px 30px;
-  padding: 10px 110px;
+.entry { /*This is the card margin/padding/shadow*/
+  margin: 20px 20px;
+  padding: 10px 110px; /* this controls where the padding is inside(where box aligns)*/
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.21);
+  border: 3px solid #000000;
 }
-.entry:before {
+.entry:before { /*This is the number box*/
   content: attr(nyt-rank);
   font-family: 'Rozha One', serif;
   font-size: 3rem;
@@ -31,14 +38,14 @@
   width: 50px;
   height: 50px;
   line-height: 50px;
-  padding: 0px 0px;
+  padding: 0px 0px; /*space between number & box*/
   text-align: center;
   -webkit-transform: translate(-100px);
           transform: translate(-100px);
-  border: 4px solid #282c37;
-  background-color: #fff;
+  border: 4px solid #000000;
+  background-color: white;
 
-  color: #282c37;
+  color: black;
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.21);
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.21);
 }
